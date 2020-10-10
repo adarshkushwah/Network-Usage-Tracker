@@ -39,9 +39,9 @@ def monitor(limit, unit):
 
 def main():
 	if len(sys.argv) > 3 or len(sys.argv) < 3:
-		print('command usage: python bandwidth.py <data usage in MiB or GiB>')
-		print('example: python bandwidth.py 500 MiB')
-		print('or python bandwidth.py 2 GiB')
+		print('command usage: python3 bandwidth_py3.py <data usage in MiB or GiB>')
+		print('example: python3 bandwidth_py3.py 500 MiB')
+		print('or python3 bandwidth_py3.py 2 GiB')
 		exit(1)
 	else:
 		limit = float(sys.argv[1])
